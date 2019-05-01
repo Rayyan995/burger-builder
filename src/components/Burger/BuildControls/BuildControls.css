@@ -1,0 +1,65 @@
+.BuildControls{
+    width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    background-color: #CF8F2E;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 0 2px 1px #CCC;
+    align-items: center;
+}
+.Buttons {
+    margin-left: 108px;
+}
+.BuildControls button{
+    display: inline;
+    font: inherit;
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid #AA6817;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+}
+/* Order button ************************ */ 
+.Reset {
+    width: 80px;    
+    height: 50px;
+    background-color: #e6413b;
+    color: white;
+    padding: 10px;
+}
+.Reset:hover {
+    background-color: #c92d28;
+}
+.Reset:active {
+    transform: scale(1.2);
+}
+.Reset:disabled {
+    background-color: #AC9980;
+    border: 1px solid #7E7365;
+    color: #ccc;
+    cursor: not-allowed;
+}
+/* End reset button */ 
+
+/* Start Order button  */ 
+.Order {
+    width: 140px;
+    height: 50px;
+    background-color: #49e63b;
+    color: white;
+    /* transition: 0.7s; */
+}
+.Order:hover {
+    background-color: #32c724;
+}
+.Order:active {
+    transform: scale(1.2);
+}
+.Order:disabled {
+    background-color: #AC9980;
+    border: 1px solid #7E7365;
+    color: #ccc;
+    cursor: not-allowed;
+}
