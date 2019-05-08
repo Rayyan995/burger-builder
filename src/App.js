@@ -13,9 +13,9 @@ class App extends Component {
         {/* <div className={classes.Plural}> I'm plural dive</div> */}
         <Layout>
           <Switch>
+            <Route path="/" exact component={BurgerBuilder} />
             <Route path="/checkout" component={Checkout} />
             <Route path="/orders" component={Orders} />
-            <Route path="/" exact component={BurgerBuilder} />
           </Switch>
         </Layout>
       </div>
