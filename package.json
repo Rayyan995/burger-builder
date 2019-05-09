@@ -1,7 +1,7 @@
 {
   "name": "burger-project",
   "version": "0.1.0",
-  "homepage": "https://github.org/Rayyan995/burger-builder",
+  "homepage": "https://rayyan995.github.io/burger-builder/",
   "private": true,
   "dependencies": {
     "autoprefixer": "7.1.6",
